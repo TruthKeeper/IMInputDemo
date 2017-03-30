@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="顺手点个赞呗" />
+</LinearLayout>
