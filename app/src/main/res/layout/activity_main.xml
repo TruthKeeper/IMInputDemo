@@ -13,6 +13,14 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="deal"
-        android:text="处理后" />
+        android:onClick="dealInActivity"
+        android:text="处理后_Activity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="dealInFragment"
+        android:text="处理后_Fragment"
+        android:textAllCaps="false" />
 </LinearLayout>

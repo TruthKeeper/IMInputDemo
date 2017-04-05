@@ -16,7 +16,14 @@ import com.tk.iminputdemo.deal.MeasureLinearLayout;
 import com.tk.iminputdemo.deal.KeyBoardObserver;
 import com.tk.iminputdemo.deal.SharePrefenceUtils;
 
-public class DealActivity extends AppCompatActivity implements KeyBoardObserver {
+/**
+ * <pre>
+ *     author : TK
+ *     time   : 2017/03/30
+ *     desc   : Activity的场景
+ * </pre>
+ */
+public class DealInActivityActivity extends AppCompatActivity implements KeyBoardObserver {
     private MeasureLinearLayout rootLayout;
     private SwipeRefreshLayout swipeLayout;
     private RecyclerView recyclerview;
@@ -28,7 +35,7 @@ public class DealActivity extends AppCompatActivity implements KeyBoardObserver 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_deal);
+        setContentView(R.layout.activity_deal_in_activity);
 
         rootLayout = (MeasureLinearLayout) findViewById(R.id.root_layout);
         swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_layout);

@@ -4,9 +4,9 @@ package com.tk.iminputdemo.deal;
  * <pre>
  *     author : TK
  *     time   : 2017/03/30
- *     desc   : xxxx描述
+ *     desc   : 软键盘 观察者
  * </pre>
  */
 public interface KeyBoardObserver {
-    void update(boolean bePressured, int keyBoardHeight);
+    void update(boolean keyBoardVisibile, int keyBoardHeight);
 }

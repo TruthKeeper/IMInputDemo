@@ -12,7 +12,7 @@ import java.util.List;
  * <pre>
  *     author : TK
  *     time   : 2017/03/30
- *     desc   : 监听软键盘
+ *     desc   : 监听软键盘的 可被观察者
  * </pre>
  */
 public class KeyBoardObservable {

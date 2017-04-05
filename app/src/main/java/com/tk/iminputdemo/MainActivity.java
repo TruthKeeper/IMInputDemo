@@ -14,10 +14,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void undeal(View v) {
-        startActivity(new Intent(this,UndealActivity.class));
+        startActivity(new Intent(this, UndealActivity.class));
     }
 
-    public void deal(View v) {
-        startActivity(new Intent(this,DealActivity.class));
+    public void dealInActivity(View v) {
+        startActivity(new Intent(this, DealInActivityActivity.class));
+    }
+
+    public void dealInFragment(View v) {
+        startActivity(new Intent(this, DealInFragmentActivity.class));
     }
 }
